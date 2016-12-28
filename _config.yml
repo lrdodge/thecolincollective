@@ -9,6 +9,10 @@ background:         'assets/img/kcif-2016/livingroom-2.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://lrdodge.github.io/thecolincollective/
+navigation_links:
+  Blog: "posts"
+  Shows: "shows"
+  About: "about"
 
 # Jekyll
 permalink:          /:title/

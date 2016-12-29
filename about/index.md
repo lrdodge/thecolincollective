@@ -1,37 +1,20 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About
+subtitle: Not a Cult
+permalink: /about/
 comments: false
+author_footer: false
+bigimg:
+- "/img/skyline-min.jpg"
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+Experimenters and dabblers: The Colin Collective taps unusual inspiration and explores new realms. Born across the globe, eight diverse and unique individuals were summoned together by pheromones and mystical forces to become Colin. We excel in experimenting with original formats and dare to play big. Based out of Kansas City, The Colin Collective has been performing long form improvisation and being generally silly since 2015.
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
-
-## Preview
+Members of The Colin Collective have a wide spectrum of backgrounds, from acting to computer science to juggling to transportation logistics. Most are involved in additional improv groups, including Comedy City, Kansas City Improv Company, Babies, and That’s No Movie. The Colin Collective can be seen regularly at the Kick Comedy theater and has made appearances at the 2016 Kansas City Improv Festival and the 2016 Denver Improv Festival.
 
 {% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+    {% for photo in site.data.photos %}
+    /assets/img/{{ photo.path }}
+    {% endfor %}
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+{% include gallery images=images caption="Screenshots of Moon Theme" cols=3 %}

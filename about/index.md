@@ -17,4 +17,4 @@ Members of The Colin Collective have a wide spectrum of backgrounds, from acting
     /assets/img/{{ photo.path }}
     {% endfor %}
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=3 %}
+{% include gallery images=images caption="Kansas City Improv Festival 2016" cols=3 %}

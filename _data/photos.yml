@@ -1,34 +1,4 @@
 # KCIF
-- path: kcif-2016\alice-bryan.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\alice-gabi-luke.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\alice-kelly-casey.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\alice-kelly-casey-mish.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\casey-jessica-alice.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\kelly.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\gabi.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\jessica-alice.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\luke.jpg
-  caption: "KCIF 2016"
-  alt: "image"
-- path: kcif-2016\kelly-alice.jpg
-  caption: "KCIF 2016"
-  alt: "image"
 - path: kcif-2016\livingroom-1.jpg
   caption: "KCIF 2016"
   alt: "image"
@@ -38,12 +8,47 @@
 - path: kcif-2016\livingroom-3.jpg
   caption: "KCIF 2016"
   alt: "image"
-- path: kcif-2016\luke-alice-mish-gabi.jpg
-  caption: "KCIF 2016"
-  alt: "image"
+
 - path: kcif-2016\mish-gabi.jpg
   caption: "KCIF 2016"
   alt: "image"
+- path: kcif-2016\alice-kelly-casey-mish.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+- path: kcif-2016\alice-kelly-casey.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+# These pictures have similar sizes, different than the others, and should be grouped together.
+- path: kcif-2016\gabi.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+- path: kcif-2016\jessica-alice.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+- path: kcif-2016\luke.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+
+- path: kcif-2016\casey-jessica-alice.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+- path: kcif-2016\kelly.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+- path: kcif-2016\alice-gabi-luke.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+
+- path: kcif-2016\kelly-alice.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+- path: kcif-2016\luke-alice-mish-gabi.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+- path: kcif-2016\alice-bryan.jpg
+  caption: "KCIF 2016"
+  alt: "image"
+# Size different than all ohter KCIF 2016 photos which is why it's at the end.
 - path: kcif-2016\kelly-mish.jpg
   caption: "KCIF 2016"
   alt: "image"

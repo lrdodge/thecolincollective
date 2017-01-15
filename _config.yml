@@ -8,7 +8,7 @@ logo:               'assets/img/bulb.png'
 background:         'assets/img/kcif-2016/livingroom-2.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://lrdodge.github.io/thecolincollective/
+url:                http://www.thecolincollective.com
 
 # Jekyll
 permalink:          /:title/
@@ -30,9 +30,9 @@ sass:
 
 # Social
 # if you don't have any of social below, comment the line.
-# google:
+google:
   #plus:            #username
-  # analytics:
+  analytics: "UA-28662509-1"
   #verify:
   #ad-client:
   #ad-slot:
